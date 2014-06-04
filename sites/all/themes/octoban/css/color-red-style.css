@@ -1,0 +1,510 @@
+﻿@charset "UTF-8";
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+
+a,
+a:link,
+a:visited {
+  color: #ae351d;
+  text-decoration: none;
+}
+.themecolor-text {
+  color: #ae351d;
+}
+pre,
+div.code {
+  border-left: 5px solid #ae351d;
+}
+.highlight {
+  background: #ae351d;
+}
+
+/*------------------------------------*\
+	Pages Background
+\*------------------------------------*/
+.zone-title-wrapper,
+.zone-title {
+  background-color: #ae351d;
+}
+
+/*------------------------------------*\
+	Pages CSS
+\*------------------------------------*/
+/* Page naviagation */
+.item-list .pager .pager-current,
+.item-list .pager li a:hover {
+  background: #ae351d;
+  border: 1px solid #ae351d;
+}
+
+/* Button, label, badge */
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+  background-color: #ae351d;
+  color: #fff;
+  text-shadow: none;
+}
+
+.btn-primary {
+  background-color: #ae351d;
+}
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+/* Nice menu */
+.block-nice-menus ul.nice-menu li.active-trail a,
+.block-nice-menus ul.nice-menu li a.active,
+.block-nice-menus ul.nice-menu li a:hover,
+.block-nice-menus ul.nice-menu li.over a,
+.block-nice-menus ul.nice-menu li li.over a:hover,
+.block-nice-menus ul.nice-menu li li.over a.active,
+.block-nice-menus ul.nice-menu li.over li a:hover,
+.block-nice-menus ul.nice-menu li.over li a.active,
+.block-nice-menus ul.nice-menu li.over li.over a,
+.block-nice-menus ul.nice-menu li.active-trail li a:hover,
+.block-nice-menus ul.nice-menu li.active-trail li a.active,
+.block-nice-menus ul.nice-menu li.active-trail li.active-trail a,
+.block-nice-menus ul.nice-menu li.over li.over li a:hover,
+.block-nice-menus ul.nice-menu li.over li.over li a.active,
+.block-nice-menus ul.nice-menu li.active-trail li.active-trail li.active-trail a:hover,
+.block-nice-menus ul.nice-menu li.active-trail li.active-trail li.active-trail a.active {
+  color: #ae351d;
+}
+
+/* Mobile menu */
+ul#om-menu-mobile-menu li.om-leaf {
+  background: #ae351d;
+}
+.om-maximenu-content .ui-accordion h3.ui-state-active a,
+.om-maximenu-content .ui-accordion h3.ui-state-active span.accordion-link,
+.om-maximenu-content  .ui-accordion-header.ui-state-active a,
+.om-maximenu-content  .ui-accordion-header.ui-state-active span.accordion-link {
+  color: #ae351d;
+}
+
+/* User menu */
+.block-system-user-menu ul.menu a:hover,
+.block-system-user-menu ul.menu a.active {
+  color: #ae351d;
+}
+
+/* Footer menu */
+.zone-footer ul.menu li a:hover,
+.zone-footer ul.menu li a.active {
+  color: #ae351d;
+}
+
+/*------------------------------------*\
+	NODES CSS
+\*------------------------------------*/
+.node-links ul li a {
+  background: #ae351d;
+}
+
+/*------------------------------------*\
+	COMMENTS CSS
+\*------------------------------------*/
+article.comment h3 a:hover {
+  color: #ae351d;
+}
+.comment-links ul li a:hover {
+  color: #ae351d;
+}
+.comment-links ul li span a {
+  color: #ae351d;
+}
+
+
+/*------------------------------------*\
+	PORTFOLIO CSS
+\*------------------------------------*/
+/* List Portfolio */
+.view-list-portfolio .views-field-title a:hover {
+  color: #ae351d;
+}
+.view-list-portfolio .views-field-field-portfolio-images .extra-content {
+  background: url(../images/red/view-more-bg.png);
+}
+
+/* List Portfolio 1 column */
+.view-list-portfolio.list-portfolio-1-column .views-field-field-portfolio-category a:hover {
+  color: #ae351d;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-view-node-1 a {
+  background: #ae351d;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-view-node-1 a:hover {
+  background: #000;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-field-project-url a {
+  background: #000;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-field-project-url a:hover {
+  background: #ae351d;
+}
+
+/* List Portfolio 1 column text */
+.view-list-portfolio.list-portfolio-1-column-text .views-field-field-portfolio-category a {
+  color: #aaa;
+}
+.view-list-portfolio.list-portfolio-1-column-text .views-field-field-portfolio-category a:hover {
+  color: #ae351d;
+}
+.view-list-portfolio.list-portfolio-1-column-text .views-field-field-project-url a {
+  background: #000;
+}
+.view-list-portfolio.list-portfolio-1-column-text .views-field-view-node-1 a:hover {
+  background: #000;
+}
+.view-list-portfolio.list-portfolio-1-column-text .views-field-view-node-1 a {
+  background: #ae351d;
+}
+.view-list-portfolio.list-portfolio-1-column-text .views-field-field-project-url a:hover {
+  background: #ae351d;
+}
+
+/* Latest Portfolio */
+.block-latest-portfolio .views-field-title a {
+  color: #2e2e2e;
+}
+.block-latest-portfolio .views-field-title a:hover {
+  color: #ae351d;
+}
+.block-latest-portfolio .views-field-field-portfolio-images .field-more-link {
+  background: url(../images/red/view-more-bg.png);
+}
+
+/* Portfolio category */
+.block-portfolio-category .content ul li a:hover {
+  color: #ae351d;
+}
+
+/* Block recent work */
+.block-recent-works .jcarousel-prev:hover {
+  background: url(../images/red/jcarousel-prev-hover.png) 0 0 no-repeat;
+}
+.block-recent-works .jcarousel-next:hover {
+  background: url(../images/red/jcarousel-next-hover.png) 0 0 no-repeat;
+}
+
+/* Block recent portfolio on sidebar */
+.block-recent-portfolio-sidebar .views-row .views-row-inner:hover {
+  border: 1px solid #ae351d;
+}
+
+/*------------------------------------*\
+	NEWS CSS
+\*------------------------------------*/
+/* List articles */
+.view-list-articles .views-field-title a {
+  color: #000;
+}
+.view-list-articles .views-field-title a:hover {
+  color: #ae351d;
+}
+
+.view-list-articles .views-field-field-tags a {
+  color: #666;
+}
+.view-list-articles .views-field-field-tags a:hover {
+  color: #ae351d;
+}
+.view-list-articles .views-field-field-image .field-more-link,
+.list-article-printerest .views-field-field-image .field-more-link {
+  background: url(../images/red/view-more-bg.png);
+}
+
+/* Block latest news */
+.block-latest-news .views-slideshow-controls-top .views-slideshow-pager-field-item .views-content-field-image img:hover,
+.block-latest-news .views-slideshow-controls-top .views-slideshow-pager-field-item.active .views-content-field-image img,
+.block-latest-news .views-slideshow-controls-top .views-slideshow-pager-field-item .views-field-field-embedded-media img:hover,
+.block-latest-news .views-slideshow-controls-top .views-slideshow-pager-field-item.active .views-field-field-embedded-media img {
+  border: 3px solid #ae351d;
+}
+.block-latest-news .views-row .views-field-title a:hover {
+  color: #ae351d;
+}
+
+/* Block related news */
+.block-related-news .views-slideshow-controls-top .views-slideshow-pager-field-item .views-content-field-image img:hover,
+.block-related-news .views-slideshow-controls-top .views-slideshow-pager-field-item.active .views-content-field-image img {
+  border: 3px solid #ae351d;
+}
+.block-related-news .views-row .views-field-title a:hover {
+  color: #ae351d;
+}
+
+/* Block Recent News */
+.block-recent-news .views-row .views-field-title a:hover {
+  color: #ae351d;
+}
+
+/* Block Tags */
+.block-tags .views-row .views-field-name a:hover {
+  background: #ae351d;
+  border: 1px solid #ae351d;
+}
+
+/* Article detail */
+article.node-article .node-tags a:hover,
+article.node-article .node-user a:hover {
+  color: #ae351d;
+}
+article.node-portfolio .field-slideshow-controls a.next:hover,
+article.node-article .field-slideshow-controls a.next:hover {
+  background: url(../images/red/field-slideshow-next-hover.png) 0 0 no-repeat;
+}
+article.node-portfolio .field-slideshow-controls a.prev:hover,
+article.node-article .field-slideshow-controls a.prev:hover {
+  background: url(../images/red/field-slideshow-prev-hover.png) 0 0 no-repeat;
+}
+
+/*------------------------------------*\
+	PHOTOS PAGE CSS
+\*------------------------------------*/
+.view-list-photos .views-row .views-field-title a {
+  color: #000;
+}
+.view-list-photos .views-row .views-field-title a:hover {
+  color: #ae351d;
+}
+
+/*------------------------------------*\
+	PRICING PAGE CSS
+\*------------------------------------*/
+/* Full boxed pricing */
+.full-boxed-pricing .column-recommend ul li.label-row {
+  background: #ae351d;
+  border-color: #ae351d;
+}
+.full-boxed-pricing .column-free ul li.pricing-row .exact_price {
+  color: #33cc00;
+}
+.full-boxed-pricing .column-recommend ul li.pricing-row .exact_price {
+  color: #ae351d;
+}
+.full-boxed-pricing ul li.footer-row a.button {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  color: #ae351d;  
+}
+.full-boxed-pricing ul li.footer-row a.button:hover {
+  background: #ae351d;
+  color: #fafafa;  
+  border: 1px solid #ae351d;
+}
+
+/* Sep boxed pricing */
+.sep-boxed-pricing ul li.footer-row a.button {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  color: #ae351d;  
+}
+.sep-boxed-pricing ul li.footer-row a.button:hover {
+  background: #ae351d;
+  color: #fafafa;  
+  border: 1px solid #ae351d;
+}
+.sep-boxed-pricing ul li.title-row {
+  background: #B92121;
+  border-color: #CA3232;
+}
+.sep-boxed-pricing ul li.pricing-row {
+  background: #A81010;
+  border-color: #CA3232 #C3512F #C3512F;
+}
+.sep-boxed-pricing .price strong {
+  color: #000;
+}
+
+
+/*------------------------------------*\
+	CLIENT CSS
+\*------------------------------------*/
+/* Block clients */
+.block-clients .jcarousel-prev:hover {
+  background: url(../images/red/jcarousel-prev-hover.png) 0 0 no-repeat;
+}
+.block-clients .jcarousel-next:hover {
+  background: url(../images/red/jcarousel-next-hover.png) 0 0 no-repeat;
+}
+
+/*------------------------------------*\
+	ABOUT CSS
+\*------------------------------------*/
+.node-about-us .field-name-field-image .field-slideshow-pager a.activeSlide {
+  background: url(../images/red/feature-slideshow-nav-active.png) 0 0 no-repeat;
+}
+
+/*------------------------------------*\
+	TEAM CSS
+\*------------------------------------*/
+.view-list-members .views-field-field-member-image {
+  border: 3px solid #bcbec0;
+}
+.view-list-members .views-field-field-member-image:hover {
+  border: 3px solid #ae351d;
+}
+.view-list-members .views-field-field-member-image .field-more-link {
+  background: url(../images/red/view-more-bg.png);
+}
+.view-list-members .views-field-title a {
+  color: #000;
+}
+.view-list-members .views-field-title a:hover {
+  color: #ae351d;
+}
+.view-list-members .views-field-field-position {
+  color: #ae351d;
+}
+
+/*------------------------------------*\
+	FAQs CSS
+\*------------------------------------*/
+.faq-question-answer.expanded .faq-question {
+  background-color: #ae351d;
+}
+
+/*------------------------------------*\
+	TESTIMONIAL CSS
+\*------------------------------------*/
+/* Block Testimonials */
+.block-testimonials .views-row .views-field-field-client-company {
+  color: #ae351d;
+}
+
+/* Block happy clients */
+.block-happy-clients .views-row .views-field-field-client-company {
+  color: #ae351d;
+}
+
+/*------------------------------------*\
+	BLOCKS CSS
+\*------------------------------------*/
+/* Block Quick Tabs */
+ul.quicktabs-tabs li.active a {
+  border-top: 3px solid #ae351d;
+}
+
+/* Block Flex Slideshow */
+.flex-control-paging li a.flex-active {
+  background: #ae351d;
+}
+
+/* Block SimpleNews */
+.block-simplenews input.form-submit:focus,
+.block-simplenews input.form-submit:hover {
+  background-color: #ae351d;
+}
+
+/* Block recent comments */
+.block-comments-recent-block li a {
+  color: #000;
+}
+.block-comments-recent-block li a:hover {
+  color: #ae351d;
+}
+
+/* Block list */
+.block-list .content li a {
+  color: #999;
+}
+.block-list .content li a:hover {
+  color: #ae351d;
+}
+
+/* Block Our services */
+.our-services-2 .icon-stack:hover {
+  color: #ae351d;
+}
+
+/* Block accordion */
+.ui-accordion h3.ui-state-active,
+.ui-accordion-header.ui-state-active {
+  background: #ae351d;
+}
+
+/* Block Tabs */
+.ui-tabs .ui-tabs-nav li.ui-state-active {
+  border-top: 3px solid #ae351d;
+}
+/* Vertical Tab */
+.block-tabs-vertical.ui-tabs .ui-tabs-nav li.ui-state-active {
+  border-left: 3px solid #ae351d;
+  border-top: 1px solid #ccc;
+}
+
+/* Toggle */
+.toggle_area .toggle_item .toggle_label.active {
+  background-color: #ae351d;
+}
+
+/* Block Sidebar Navigation */
+.block-features-navigation .content ul.menu li a:hover,
+.block-features-navigation .content ul.menu li a.active,
+.block-faq-faq-categories .content ul li a:hover,
+.block-faq-faq-categories .content ul li a.active {
+  color: #ae351d;
+}
+.accordion-menu-name-side-menu.ui-accordion  h3.active-trail span.accordion-link,
+.accordion-menu-name-side-menu.ui-accordion  h3.active-trail a.active-trail,
+.accordion-menu-name-side-menu.ui-accordion  h3 a:hover,
+.accordion-menu-name-side-menu.ui-accordion  h3.ui-state-active span.accordion-link {
+  color: #ae351d;
+}
+.accordion-menu-name-side-menu.ui-accordion .ui-accordion-content-active ul.menu li a:hover,
+.accordion-menu-name-side-menu.ui-accordion .ui-accordion-content-active ul.menu li a.active {
+  color: #ae351d;
+}
+
+/* 404 Page */
+.page-404-menu {
+  background: url(../images/red/page-404-menu.png) 0 0 no-repeat;
+}
+.page-404-menu-inner {
+  background: #ae351d;
+}
+
+/*------------------------------------*\
+	FORMS CSS
+\*------------------------------------*/
+
+button:focus, button:active,
+input:focus, input:active,
+select:focus, select:active,
+textarea:focus, textarea:active {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow:none;
+  border: 1px solid #ae351d;
+}
+
+input.form-submit:hover {
+  background: #ae351d;
+  color: #fff;
+}
+
+/*------------------------------------*\
+	TABS CSS
+\*------------------------------------*/
+
+ul.primary li.active a,
+ul.primary li.active a:hover,
+ul.primary li.active a:focus {
+  background-color: #ae351d;
+}
+
+
+
+
+
+
+
+
+
+
+

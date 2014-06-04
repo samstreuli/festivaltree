@@ -1,0 +1,65 @@
+﻿/* $Id: color-vine-style.css,v 1.0.0 2013/09/25 08:18:15 symphonythemes Exp $ */
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body {
+  background: #d4d4d4;
+}
+
+/*------------------------------------*\
+	Pages Background
+\*------------------------------------*/
+.zone-user-wrapper,
+.zone-branding-wrapper,
+.zone-menu-wrapper,
+.zone-title-wrapper,
+.zone-header-wrapper,
+.zone-feature-top-wrapper,
+.zone-feature-middle-wrapper,
+.zone-feature-bottom-wrapper,
+.zone-content-top-wrapper,
+.zone-content-wrapper,
+.zone-content-bottom-first-wrapper,
+.zone-content-bottom-second-wrapper,
+.zone-content-bottom-third-wrapper,
+.zone-content-bottom-fourth-wrapper,
+.zone-content-bottom-fifth-wrapper,
+.zone-postscript-wrapper,
+.zone-footer-wrapper {
+  background: none !important;
+}
+
+.zone-title {
+  background-image: url(../images/zone-header-wrapper-shadow.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.zone-user,
+.zone-branding,
+.zone-menu,
+.zone-header {
+  background: #fff;
+}
+
+.zone-feature-middle,
+.zone-feature-bottom,
+.zone-content,
+.zone-content-bottom-first,
+.zone-content-bottom-second,
+.zone-content-bottom-third,
+.zone-content-bottom-fourth,
+.zone-content-bottom-fifth,
+.zone-content-bottom-fifth {
+  background: #fff url(../images/zone-wrapper-shadow.png) 0 top repeat-x;
+}
+
+
+.not-front .zone-content {
+  background: #fff;
+}
+.zone-postscript {
+  background: #1a1919;
+}
+.zone-footer {
+  background: #100f0f;
+}

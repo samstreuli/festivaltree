@@ -1,0 +1,7 @@
+name = ST Octoban
+description = ST Octoban install fullsize package.
+version = VERSION
+core = 7.x
+files[] = octoban.profile
+
+
